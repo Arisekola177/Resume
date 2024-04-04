@@ -12,7 +12,7 @@ const Featured = () => {
            <div className="flex flex-col gap-4">
               <h1 className="font-bold text-lg lg:text-2xl">E-commerce Application</h1>
               <p className="lg:text-sm xs:text-xs lg:leading-6"> An exceptional e-commerce platform with payment functionality has been meticulously developed, 
-              employing cutting-edge technologies such as Next.js, NextAuth, Redux-Toolkit, Tailwind CSS, Paystack, and a suite of other innovative tools. This fully operational e-commerce showcases a sophisticated integration of modern web technologies, 
+              employing cutting-edge technologies such as Reactjs, Firebase, Redux-Toolkit, Tailwind CSS, Paystack, and a suite of other innovative tools. This fully operational e-commerce showcases a sophisticated integration of modern web technologies, 
               enabling seamless user experience and robust functionalities. Some of the key features includes: </p>
                <div className="flex gap-2 items-center">
                 <FaHandPointRight />
@@ -52,6 +52,26 @@ const Featured = () => {
                </div>
            </div>
            <div className="flex flex-col gap-4">
+              <h1 className="font-bold xs:text-xl lg:text-2xl">Meta</h1>
+              <p className="lg:text-sm text-xs lg:leading-6">
+              This is a single page Nextjs project which aims to showcase innovative features and functionalities while seamlessly 
+              integrating user-friendly UI. </p>
+               <div className="flex gap-2 items-center">
+                <FaHandPointRight />
+                <p className="xs:text-xs lg:text-base">Fully Responsive design using Tailwind.</p>
+               </div>
+               <div className="flex gap-2 items-center">
+                <FaHandPointRight />
+                <p className="xs:text-xs lg:text-base">Landing page with framer-motion.</p>
+               </div>
+               
+              
+               <div className="flex flex-col gap-2">
+                <Link className="text-blue-400 underline xs:text-xs lg:text-base" href='https://meta-henna-three.vercel.app/' target="blank">Click to view the live Project</Link>
+                <Link className="text-blue-400 underline xs:text-xs lg:text-base" href='https://github.com/Arisekola177/meta' target="blank">Click to check the github repo</Link>
+               </div>
+           </div>
+           <div className="flex flex-col gap-4">
               <h1 className="font-bold xs:text-xl lg:text-2xl">GetLinked</h1>
               <p className="lg:text-sm text-xs lg:leading-6"> An exceptional hackathon challenge, 
               this React project with a multi-page website aims to showcase innovative features and functionalities while seamlessly 
@@ -60,7 +80,10 @@ const Featured = () => {
                 <FaHandPointRight />
                 <p className="xs:text-xs lg:text-base">Fully Responsive design using Tailwind.</p>
                </div>
-              
+               <div className="flex gap-2 items-center">
+                <FaHandPointRight />
+                <p className="xs:text-xs lg:text-base">Landing page with framer-motion.</p>
+               </div>
                <div className="flex flex-col gap-2">
                 <Link className="text-blue-400 underline xs:text-xs lg:text-base" href='https://getlink-app.vercel.app/' target="blank">Click to view the live Project</Link>
                 <Link className="text-blue-400 underline xs:text-xs lg:text-base" href='https://github.com/Arisekola177/getlink-app' target="blank">Click to check the github repo</Link>
