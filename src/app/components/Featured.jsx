@@ -82,7 +82,15 @@ const Featured = () => {
                </div>
                <div className="flex gap-2 items-center">
                 <FaHandPointRight />
-                <p className="xs:text-xs lg:text-base">Landing page with framer-motion.</p>
+                <p className="xs:text-xs lg:text-base">Next.js Framework.</p>
+               </div>
+               <div className="flex gap-2 items-center">
+                <FaHandPointRight />
+                <p className="xs:text-xs lg:text-base">Intuitive User Interface.</p>
+               </div>
+               <div className="flex gap-2 items-center">
+                <FaHandPointRight />
+                <p className="xs:text-xs lg:text-base">Seamless Integration.</p>
                </div>
                <div className="flex flex-col gap-2">
                 <Link className="text-blue-400 underline xs:text-xs lg:text-base" href='https://getlink-app.vercel.app/' target="blank">Click to view the live Project</Link>
